@@ -17,9 +17,9 @@ pip3 install -r requirements.txt
 # usage
 1. git clone git@github.com:wubin1989/url-tagger.git
 2. cd url-tagger
-3. ./app -h to read help message
-4. ./app -u "http://sports.qq.com/" to check output result for only one url
-5. ./app -f "/Users/a1/oopdata/mypython/url-tagger/test_urls.txt" to check output results for url list
+3. ./app -h
+4. ./app -u "http://sports.qq.com/"
+5. ./app -f "/Users/a1/oopdata/mypython/url-tagger/test_urls.txt"
 
 # todo
 1. improve classifier
