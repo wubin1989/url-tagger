@@ -2,6 +2,11 @@
 A command line tool for tagging url written by python.
 Only for self-learning
 
+# features
+1. use nltk naivebayes algorithm for text classification
+2. use sougou news corpus of 9 classes (health, military, sport, culture, economy, education, internet, recruit, travel)
+3. use asyncio coroutine to requrest each url concurrently
+
 # requirements
 python 3.3–3.5
 pip3
@@ -9,10 +14,12 @@ pip3
 # setup
 pip3 install -r requirements.txt
 
-# features
-1. use nltk naivebayes algorithm for text classification
-2. use sougou news corpus of 9 classes (health, military, sport, culture, economy, education, internet, recruit, travel)
-3. use asyncio coroutine to requrest each url concurrently
+# usage
+1. git clone git@github.com:wubin1989/url-tagger.git
+2. cd url-tagger
+3. ./app -h to read help message
+4. ./app -u "http://sports.qq.com/" to check output result for only one url
+5. ./app -f "/Users/a1/oopdata/mypython/url-tagger/test_urls.txt" to check output results for url list
 
 # todo
 1. improve classifier
